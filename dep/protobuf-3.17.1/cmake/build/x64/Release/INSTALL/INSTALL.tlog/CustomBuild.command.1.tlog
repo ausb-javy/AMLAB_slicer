@@ -1,0 +1,10 @@
+^E:\DEV\AMLAB_SLICER\DEP\PROTOBUF-3.17.1\CMAKE\BUILD\CMAKEFILES\24D08BF2DB06DD833EF0AB5FC41E96DB\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

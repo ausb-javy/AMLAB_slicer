@@ -1,0 +1,48 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCXXInformation.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/CMakeDependentOption.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/CMakeGenericSystem.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/CMakeRCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/CheckLibraryExists.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/MSVC-C.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/MSVC.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/FindThreads.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/FindZLIB.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/GNUInstallDirs.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows-MSVC-C.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows-MSVC.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake
+D:/Program Files/CMake/share/cmake-3.24/Modules/SelectLibraryConfigurations.cmake
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/CMakeLists.txt
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/3.24.2/CMakeCCompiler.cmake
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/3.24.2/CMakeRCCompiler.cmake
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/3.24.2/CMakeSystem.cmake
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/extract_includes.bat.in
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/install.cmake
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/libprotobuf-lite.cmake
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/libprotobuf.cmake
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/libprotoc.cmake
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/protobuf-config-version.cmake.in
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/protobuf-config.cmake.in
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/protobuf-lite.pc.cmake
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/protobuf-module.cmake.in
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/protobuf-options.cmake
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/protobuf.pc.cmake
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/protoc.cmake
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/version.rc.in

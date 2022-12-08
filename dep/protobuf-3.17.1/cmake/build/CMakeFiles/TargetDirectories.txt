@@ -1,0 +1,7 @@
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/libprotobuf-lite.dir
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/libprotobuf.dir
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/libprotoc.dir
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/protoc.dir
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/INSTALL.dir
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/ALL_BUILD.dir
+E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/ZERO_CHECK.dir
