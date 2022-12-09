@@ -1,4 +1,4 @@
-﻿  Building Custom Rule E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/CMakeLists.txt
+﻿  Building Custom Rule F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/CMakeLists.txt
   code_generator.cc
   command_line_interface.cc
   cpp_enum.cc
@@ -82,4 +82,4 @@
   ruby_generator.cc
   subprocess.cc
   zip_writer.cc
-  libprotoc.vcxproj -> E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\Debug\libprotocd.lib
+  libprotoc.vcxproj -> F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\Debug\libprotocd.lib

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\24d08bf2db06dd833ef0ab5fc41e96db\INSTALL_force.rule">
+    <CustomBuild Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\57411bc66dc25d8d41c716b3c2d7bebd\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{C6B9C8BD-6A02-3A59-A3E6-5494C8D59B07}</UniqueIdentifier>
+      <UniqueIdentifier>{573F4EC7-522F-30AF-985C-918228C70D1E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

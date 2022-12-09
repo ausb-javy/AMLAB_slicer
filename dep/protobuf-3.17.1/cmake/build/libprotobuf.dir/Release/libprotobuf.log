@@ -1,4 +1,4 @@
-﻿  Building Custom Rule E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/CMakeLists.txt
+﻿  Building Custom Rule F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/CMakeLists.txt
   any_lite.cc
   arena.cc
   arenastring.cc
@@ -19,6 +19,8 @@
   repeated_field.cc
   bytestream.cc
   common.cc
+  正在生成代码...
+  正在编译...
   int128.cc
   status.cc
   statusor.cc
@@ -39,6 +41,8 @@
   duration.pb.cc
   dynamic_message.cc
   empty.pb.cc
+  正在生成代码...
+  正在编译...
   extension_set_heavy.cc
   field_mask.pb.cc
   generated_message_reflection.cc
@@ -59,6 +63,8 @@
   unknown_field_set.cc
   delimited_message_util.cc
   field_comparator.cc
+  正在生成代码...
+  正在编译...
   field_mask_util.cc
   datapiece.cc
   default_value_objectwriter.cc
@@ -79,5 +85,8 @@
   time_util.cc
   type_resolver_util.cc
   wire_format.cc
+  正在生成代码...
+  正在编译...
   wrappers.pb.cc
-  libprotobuf.vcxproj -> E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\Release\libprotobuf.lib
+  正在生成代码...
+  libprotobuf.vcxproj -> F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\Release\libprotobuf.lib

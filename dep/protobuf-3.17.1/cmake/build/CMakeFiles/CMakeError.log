@@ -1,12 +1,14 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/CMakeTmp
+Change Dir: F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/CMakeScratch/TryCompile-etsdym
 
-Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c3cf3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
-  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bef59.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.1.0+ae57d105c
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.31.31107 版
   src.c
   版权所有(C) Microsoft Corporation。保留所有权利。
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3cf3.dir\Debug\\" /Fd"cmTC_c3cf3.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\CMakeTmp\src.c"
-E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\CMakeTmp\src.c(1,10): fatal  error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\CMakeTmp\cmTC_c3cf3.vcxproj]
+  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bef59.dir\Debug\\" /Fd"cmTC_bef59.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\CMakeScratch\TryCompile-etsdym\src.c"
+F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\CMakeScratch\TryCompile-etsdym\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\CMakeScratch\TryCompile-etsdym\cmTC_bef59.vcxproj]
 
 
 Source file was:
@@ -30,27 +32,32 @@ int main(void)
   return 0;
 }
 
-Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_84ca5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
-  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/CMakeScratch/TryCompile-1qtrty
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_76f82.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.1.0+ae57d105c
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.31.31107 版
   CheckFunctionExists.c
   版权所有(C) Microsoft Corporation。保留所有权利。
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84ca5.dir\Debug\\" /Fd"cmTC_84ca5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\CMakeTmp\cmTC_84ca5.vcxproj]
+  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_76f82.dir\Debug\\" /Fd"cmTC_76f82.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\CMakeScratch\TryCompile-1qtrty\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\CMakeScratch\TryCompile-1qtrty\cmTC_76f82.vcxproj]
 
 
 
 Determining if the function pthread_create exists in the pthread failed with the following output:
-Change Dir: E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/CMakeTmp
+Change Dir: F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/CMakeScratch/TryCompile-h1rgdb
 
-Run Build Command(s):D:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b7324.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
-  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_aa3b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 17.1.0+ae57d105c
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.31.31107 版
   CheckFunctionExists.c
   版权所有(C) Microsoft Corporation。保留所有权利。
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7324.dir\Debug\\" /Fd"cmTC_b7324.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\CMakeTmp\cmTC_b7324.vcxproj]
+  cl /c /I"C:\src\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aa3b3.dir\Debug\\" /Fd"cmTC_aa3b3.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\CMakeScratch\TryCompile-h1rgdb\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\CMakeScratch\TryCompile-h1rgdb\cmTC_aa3b3.vcxproj]
 
 
 

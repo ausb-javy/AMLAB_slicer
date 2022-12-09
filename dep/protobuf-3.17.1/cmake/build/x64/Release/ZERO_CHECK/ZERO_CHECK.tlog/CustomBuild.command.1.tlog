@@ -1,6 +1,6 @@
-^E:\DEV\AMLAB_SLICER\DEP\PROTOBUF-3.17.1\CMAKE\BUILD\CMAKEFILES\24D08BF2DB06DD833EF0AB5FC41E96DB\GENERATE.STAMP.RULE
+^F:\DEV\AMLAB_SLICER\DEP\PROTOBUF-3.17.1\CMAKE\BUILD\CMAKEFILES\57411BC66DC25D8D41C716B3C2D7BEBD\GENERATE.STAMP.RULE
 setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SE:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake -BE:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/protobuf.sln
+E:\CMake\bin\cmake.exe -SF:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake -BF:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/protobuf.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

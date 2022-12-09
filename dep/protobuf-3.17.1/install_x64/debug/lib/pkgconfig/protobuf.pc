@@ -1,7 +1,7 @@
-prefix=E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/install_x64
-exec_prefix=E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/install_x64
-libdir=E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/install_x64/lib
-includedir=E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/install_x64/include
+prefix=F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/install_x64
+exec_prefix=F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/install_x64
+libdir=F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/install_x64/lib
+includedir=F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/install_x64/include
 
 Name: Protocol Buffers
 Description: Google's Data Interchange Format

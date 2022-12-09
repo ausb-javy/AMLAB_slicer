@@ -1,6 +1,6 @@
-^E:\DEV\AMLAB_SLICER\DEP\PROTOBUF-3.17.1\CMAKE\CMAKELISTS.TXT
+^F:\DEV\AMLAB_SLICER\DEP\PROTOBUF-3.17.1\CMAKE\CMAKELISTS.TXT
 setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SE:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake -BE:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build --check-stamp-file E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/generate.stamp
+E:\CMake\bin\cmake.exe -SF:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake -BF:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build --check-stamp-file F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

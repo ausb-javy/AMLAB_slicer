@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.3")
    message(FATAL_ERROR "CMake >= 2.8.3 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.3...3.22)
+cmake_policy(VERSION 2.8.3...3.23)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -59,8 +59,8 @@ endif()
 add_library(Arcus SHARED IMPORTED)
 
 set_target_properties(Arcus PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/install_x64/release/include"
-  INTERFACE_LINK_LIBRARIES "\$<\$<NOT:\$<CONFIG:DEBUG>>:E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/install_x64/release/lib/libprotobuf.lib>;\$<\$<CONFIG:DEBUG>:E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/install_x64/debug/lib/libprotobufd.lib>;Ws2_32"
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/install_x64/release/include"
+  INTERFACE_LINK_LIBRARIES "\$<\$<NOT:\$<CONFIG:DEBUG>>:F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/install_x64/release/lib/libprotobuf.lib>;\$<\$<CONFIG:DEBUG>:F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/install_x64/debug/lib/libprotobufd.lib>;Ws2_32"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

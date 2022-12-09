@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B9B15EF0-E8E1-34C8-B0CD-891F543F2E2F}</ProjectGuid>
+    <ProjectGuid>{844C47CA-D65A-3B39-A3D2-A2A1C6199249}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>libprotobuf</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libprotobuf.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libprotobufd</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libprotobuf.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libprotobuf</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libprotobuf.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libprotobuf</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libprotobuf.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libprotobuf</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -98,10 +98,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,7 +114,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4018;4065;4146;4244;4251;4267;4305;4307;4309;4334;4355;4506;4800;4996</DisableSpecificWarnings>
@@ -134,10 +134,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -150,7 +150,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4018;4065;4146;4244;4251;4267;4305;4307;4309;4334;4355;4506;4800;4996</DisableSpecificWarnings>
@@ -170,10 +170,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -186,7 +186,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -205,10 +205,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -220,11 +220,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\CMakeLists.txt">
+    <CustomBuild Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SE:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake -BE:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build --check-stamp-file E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/generate.stamp
+E:\CMake\bin\cmake.exe -SF:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake -BF:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build --check-stamp-file F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -232,12 +232,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeSystem.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\extract_includes.bat.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\install.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf-lite.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotoc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config-version.cmake.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config.cmake.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-lite.pc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-module.cmake.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-options.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf.pc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protoc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\version.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.25\Modules\FindThreads.cmake;E:\CMake\share\cmake-3.25\Modules\FindZLIB.cmake;E:\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;E:\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.25\Modules\SelectLibraryConfigurations.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeCCompiler.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeCXXCompiler.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeRCCompiler.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeSystem.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\extract_includes.bat.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\install.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf-lite.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotoc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config-version.cmake.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config.cmake.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-lite.pc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-module.cmake.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-options.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf.pc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protoc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SE:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake -BE:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build --check-stamp-file E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/generate.stamp
+E:\CMake\bin\cmake.exe -SF:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake -BF:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build --check-stamp-file F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -245,12 +245,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeSystem.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\extract_includes.bat.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\install.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf-lite.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotoc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config-version.cmake.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config.cmake.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-lite.pc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-module.cmake.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-options.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf.pc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protoc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\version.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.25\Modules\FindThreads.cmake;E:\CMake\share\cmake-3.25\Modules\FindZLIB.cmake;E:\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;E:\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.25\Modules\SelectLibraryConfigurations.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeCCompiler.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeCXXCompiler.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeRCCompiler.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeSystem.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\extract_includes.bat.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\install.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf-lite.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotoc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config-version.cmake.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config.cmake.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-lite.pc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-module.cmake.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-options.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf.pc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protoc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SE:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake -BE:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build --check-stamp-file E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/generate.stamp
+E:\CMake\bin\cmake.exe -SF:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake -BF:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build --check-stamp-file F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -258,12 +258,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeSystem.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\extract_includes.bat.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\install.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf-lite.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotoc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config-version.cmake.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config.cmake.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-lite.pc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-module.cmake.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-options.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf.pc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protoc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\version.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.25\Modules\FindThreads.cmake;E:\CMake\share\cmake-3.25\Modules\FindZLIB.cmake;E:\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;E:\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.25\Modules\SelectLibraryConfigurations.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeCCompiler.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeCXXCompiler.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeRCCompiler.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeSystem.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\extract_includes.bat.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\install.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf-lite.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotoc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config-version.cmake.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config.cmake.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-lite.pc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-module.cmake.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-options.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf.pc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protoc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SE:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake -BE:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build --check-stamp-file E:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/generate.stamp
+E:\CMake\bin\cmake.exe -SF:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake -BF:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build --check-stamp-file F:/DEV/AMLAB_slicer/dep/protobuf-3.17.1/cmake/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -271,148 +271,148 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.24.2\CMakeSystem.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\extract_includes.bat.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\install.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf-lite.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotoc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config-version.cmake.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config.cmake.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-lite.pc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-module.cmake.in;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-options.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf.pc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protoc.cmake;E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\version.rc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.25\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.25\Modules\FindThreads.cmake;E:\CMake\share\cmake-3.25\Modules\FindZLIB.cmake;E:\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;E:\CMake\share\cmake-3.25\Modules\Internal\CheckSourceCompiles.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.25\Modules\SelectLibraryConfigurations.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeCCompiler.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeCXXCompiler.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeRCCompiler.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\3.25.0-rc3\CMakeSystem.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\extract_includes.bat.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\install.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf-lite.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotobuf.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\libprotoc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config-version.cmake.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-config.cmake.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-lite.pc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-module.cmake.in;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf-options.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protobuf.pc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\protoc.cmake;F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\any_lite.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\arena.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\arenastring.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\extension_set.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\generated_enum_util.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\generated_message_table_driven_lite.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\generated_message_util.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\implicit_weak_message.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\coded_stream.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\io_win32.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\strtod.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\zero_copy_stream.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\zero_copy_stream_impl.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\zero_copy_stream_impl_lite.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\map.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\message_lite.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\parse_context.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\repeated_field.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\bytestream.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\common.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\int128.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\status.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\statusor.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\stringpiece.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\stringprintf.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\structurally_valid.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\strutil.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\time.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\wire_format_lite.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\any.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\any.pb.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\api.pb.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\compiler\importer.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\compiler\parser.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\descriptor.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\descriptor.pb.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\descriptor_database.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\duration.pb.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\dynamic_message.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\empty.pb.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\extension_set_heavy.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\field_mask.pb.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\generated_message_reflection.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\generated_message_table_driven.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\gzip_stream.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\printer.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\tokenizer.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\map_field.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\message.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\reflection_ops.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\service.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\source_context.pb.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\struct.pb.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\substitute.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\text_format.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\timestamp.pb.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\type.pb.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\unknown_field_set.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\delimited_message_util.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\field_comparator.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\field_mask_util.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\datapiece.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\default_value_objectwriter.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\error_listener.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\field_mask_utility.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\json_escaping.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\json_objectwriter.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\json_stream_parser.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\object_writer.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\proto_writer.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\protostream_objectsource.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\protostream_objectwriter.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\type_info.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\type_info_test_helper.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\utility.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\json_util.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\message_differencer.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\time_util.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\type_resolver_util.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\wire_format.cc" />
-    <ClCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\wrappers.pb.cc" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\any.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\any.pb.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\api.pb.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\compiler\importer.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\compiler\parser.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\descriptor.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\descriptor.pb.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\descriptor_database.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\duration.pb.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\dynamic_message.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\empty.pb.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\field_mask.pb.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\generated_message_reflection.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\gzip_stream.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\printer.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\tokenizer.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\map_field.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\message.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\reflection_ops.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\service.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\source_context.pb.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\struct.pb.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\substitute.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\text_format.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\timestamp.pb.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\type.pb.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\unknown_field_set.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\delimited_message_util.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\field_comparator.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\field_mask_util.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\datapiece.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\default_value_objectwriter.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\error_listener.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\field_mask_utility.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\json_escaping.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\json_objectwriter.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\json_stream_parser.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\object_writer.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\proto_writer.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\protostream_objectsource.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\protostream_objectwriter.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\type_info.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\type_info_test_helper.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\utility.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\json_util.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\message_differencer.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\time_util.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\type_resolver_util.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\wire_format.h" />
-    <ClInclude Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\wrappers.pb.h" />
-    <ResourceCompile Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\version.rc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\any_lite.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\arena.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\arenastring.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\extension_set.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\generated_enum_util.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\generated_message_table_driven_lite.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\generated_message_util.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\implicit_weak_message.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\coded_stream.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\io_win32.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\strtod.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\zero_copy_stream.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\zero_copy_stream_impl.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\zero_copy_stream_impl_lite.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\map.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\message_lite.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\parse_context.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\repeated_field.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\bytestream.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\common.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\int128.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\status.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\statusor.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\stringpiece.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\stringprintf.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\structurally_valid.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\strutil.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\time.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\wire_format_lite.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\any.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\any.pb.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\api.pb.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\compiler\importer.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\compiler\parser.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\descriptor.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\descriptor.pb.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\descriptor_database.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\duration.pb.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\dynamic_message.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\empty.pb.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\extension_set_heavy.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\field_mask.pb.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\generated_message_reflection.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\generated_message_table_driven.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\gzip_stream.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\printer.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\tokenizer.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\map_field.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\message.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\reflection_ops.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\service.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\source_context.pb.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\struct.pb.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\substitute.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\text_format.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\timestamp.pb.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\type.pb.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\unknown_field_set.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\delimited_message_util.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\field_comparator.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\field_mask_util.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\datapiece.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\default_value_objectwriter.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\error_listener.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\field_mask_utility.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\json_escaping.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\json_objectwriter.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\json_stream_parser.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\object_writer.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\proto_writer.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\protostream_objectsource.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\protostream_objectwriter.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\type_info.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\type_info_test_helper.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\utility.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\json_util.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\message_differencer.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\time_util.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\type_resolver_util.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\wire_format.cc" />
+    <ClCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\wrappers.pb.cc" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\any.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\any.pb.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\api.pb.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\compiler\importer.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\compiler\parser.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\descriptor.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\descriptor.pb.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\descriptor_database.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\duration.pb.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\dynamic_message.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\empty.pb.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\field_mask.pb.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\generated_message_reflection.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\gzip_stream.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\printer.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\io\tokenizer.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\map_field.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\message.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\reflection_ops.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\service.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\source_context.pb.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\struct.pb.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\stubs\substitute.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\text_format.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\timestamp.pb.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\type.pb.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\unknown_field_set.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\delimited_message_util.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\field_comparator.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\field_mask_util.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\datapiece.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\default_value_objectwriter.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\error_listener.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\field_mask_utility.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\json_escaping.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\json_objectwriter.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\json_stream_parser.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\object_writer.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\proto_writer.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\protostream_objectsource.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\protostream_objectwriter.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\type_info.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\type_info_test_helper.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\internal\utility.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\json_util.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\message_differencer.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\time_util.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\util\type_resolver_util.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\wire_format.h" />
+    <ClInclude Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\src\google\protobuf\wrappers.pb.h" />
+    <ResourceCompile Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\version.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\ZERO_CHECK.vcxproj">
-      <Project>{373C335D-8D86-3DB2-9032-9AADEE910188}</Project>
+    <ProjectReference Include="F:\DEV\AMLAB_slicer\dep\protobuf-3.17.1\cmake\build\ZERO_CHECK.vcxproj">
+      <Project>{BC9C7DA1-6779-3CA7-B293-9C1528432352}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
